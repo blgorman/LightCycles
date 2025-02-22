@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arial.ttf" />
+    <None Remove="arialbd.ttf" />
+    <None Remove="arialbi.ttf" />
+    <None Remove="ariali.ttf" />
+    <None Remove="ARIALN.TTF" />
+    <None Remove="ARIALNB.TTF" />
+    <None Remove="ARIALNBI.TTF" />
+    <None Remove="ARIALNI.TTF" />
+    <None Remove="ariblk.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="arial.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arialbd.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="arialbi.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ariali.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ARIALN.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ARIALNB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ARIALNBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ARIALNI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ariblk.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SFML.Audio" Version="2.6.0" />
+    <PackageReference Include="SFML.Graphics" Version="2.6.0" />
+    <PackageReference Include="SFML.Net" Version="2.6.0" />
+    <PackageReference Include="SFML.System" Version="2.6.0" />
+    <PackageReference Include="SFML.Window" Version="2.6.0" />
+  </ItemGroup>
+
+</Project>
